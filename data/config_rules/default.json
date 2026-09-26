@@ -1,0 +1,18 @@
+{
+  "repo": "default",
+  "rules": {
+    "max_function_length": 50,
+    "require_docstrings": true,
+    "naming_convention": "snake_case",
+    "disallowed_patterns": [
+      "console.log",
+      "print(",
+      "TODO",
+      "FIXME"
+    ],
+    "severity_overrides": {
+      "missing-docstring": "nitpick",
+      "hardcoded-secret": "blocking"
+    }
+  }
+}
